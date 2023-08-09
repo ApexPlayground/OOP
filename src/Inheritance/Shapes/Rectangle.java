@@ -1,6 +1,6 @@
 package Inheritance.Shapes;
 
-public class Rectangle {
+public class   Rectangle {
     protected double length;
     protected double width;
     protected double sides = 4;

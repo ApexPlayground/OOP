@@ -12,5 +12,12 @@ public class Zoo {
         //change to cat
         greg = new Cat();
         greg.makeSound();
+
+        //Type Casting
+        ((Dog)greg).fetch();
+
+        //instanceOf
+        boolean isDog = true;
+        System.out.println(isDog);
     }
 }
